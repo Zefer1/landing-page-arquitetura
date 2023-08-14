@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    font-family: 'Inter'
+    
+}
+
+#Título-Principal {
+    color: #FFFFFF;
+    margin-left: 50px;
+    font-size: 60px;
+    padding-top: 150px;
+}
+
+#Sub-título {
+    color: #FFFFFF;
+    margin-left: 50px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#menusuperior {
+    background-image: url(Imagens/fundomenusuperor.svg);
+    height: 400px;
+}
+
+#menuinformacional{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    padding-left: 140px;
+    padding-top: 75px;
+    height: 125px;
+    width: auto;
+}
+
+#menucentral{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.tituloetexto{
+    margin-left: 140px;
+}
+#Título{  
+    margin-top: 290px;
+    font-size: 30px;
+}
+
+#textozinho{
+   padding-top: 30px;
+   font-size: 20px;
+}
+
+#imagemsala{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    
+}
+
+#menuinferior{
+    background-color: #303030;
+    text-align: center;
+}
+
+#Tituloinferior{
+    color: #FFFFFF;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+    
+input {
+    width: 350px;
+    height: 45px;
+    margin: 20px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 13px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+button{
+background-color: #C07212;
+color: #FFFFFF;
+font-family: 'Raleway', sans-serif;
+font-size: 17px;
+height: 45px;
+width: 170px;
+border: 0px;
+border-radius: 5px;
+margin: 40px;
+margin-bottom: 50px;
+cursor: pointer;
+}
+
+button:hover{
+    background-color: #854900;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #20170b;
+    transition-duration: 0.7s;
+}
+
+
+   
+
+
+
